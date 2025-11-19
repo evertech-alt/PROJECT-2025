@@ -5,7 +5,7 @@ A modern, responsive web application that allows users to search for recipes, fi
 
 This project was built as a final project for PLP Software engineering.
 
----
+---Vibe coding
 
 ## 🚀 Features
 
