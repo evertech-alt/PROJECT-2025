@@ -1,1 +1,52 @@
 # PROJECT-2025
+# 🍽️ Recipe Finder Pro
+
+A modern, responsive web application that allows users to search for recipes, filter by category, view detailed ingredients, save favorites, and switch between light and dark mode.
+
+This project was built as a final project for PLP Software engineering.
+
+---
+
+## 🚀 Features
+
+### ✓ Search Recipes  
+Enter any keyword and instantly retrieve recipes using TheMealDB API.
+
+### ✓ Category Filter  
+Browse meals by category such as Beef, Chicken, Vegan, Pasta, and more.
+
+### ✓ Dark Mode  
+Toggle between light and dark mode with one button.
+
+### ✓ Favorites System  
+Save recipes you love — stored locally using `localStorage`.
+
+### ✓ Modal Recipe Viewer  
+Click “View Recipe” to see a full-screen popup showing:  
+- Image  
+- Ingredients  
+- Full instructions
+
+### ✓ Loading Spinner  
+Smooth loader animation while fetching API results.
+
+### ✓ Responsive Grid Layout  
+Cards automatically adjust for desktop, tablet, and mobile screens.
+
+### ✓ Modern UI / UX  
+Clean layout, soft shadows, rounded corners, animations, transitions, and a professional design.
+
+---
+
+## 🛠️ Technologies Used
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)  
+- Fetch API  
+- LocalStorage API  
+- SVG Logo  
+- TheMealDB API
+
+---
+
+## 📂 Project Structure
