@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recipe Finder Pro Max</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="brand">
+        <img src="logo.png" class="logo">
+        <h1>Recipe Finder Pro Max</h1>
+    </div>
+    <div class="header-buttons">
+        <button id="themeToggle" class="icon-btn">🌙</button>
+        <button id="randomBtn">🎲 Random</button>
+        <button id="favoritesBtn">❤️ Favorites</button>
+    </div>
+</header>
+
+<section class="controls">
+    <input id="searchInput" type="text" placeholder="Search recipes...">
+    <select id="categoryFilter">
+        <option value="">All Categories</option>
+    </select>
+    <button id="searchBtn">Search</button>
+</section>
+
+<div id="loader" class="loader hidden"></div>
+<div id="results" class="results"></div>
+
+<!-- Modal -->
+<div id="modal" class="modal hidden">
+    <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <div id="modalBody"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
